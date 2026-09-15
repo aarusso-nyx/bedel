@@ -16,3 +16,7 @@ Real Stryker qualification is invoked explicitly, outside CI. The ordinary `npm 
 Client qualification used macOS arm64, with Linux arm64 containers on two Docker daemons. Linux amd64 and Windows clients are supported by the implementation but have not been exercised in this environment.
 
 These samples verify the stated mechanics; they are not a complete mutation campaign for Bedel or DEVAI. Cross-host queue execution, partial-result preservation and complete-result transfer were demonstrated in separate bounded samples; no claim is made that the six-observation interrupted sample itself completed on the other host.
+
+## Corrective release 0.1.1
+
+Version 0.1.0 was published before the installed symlink startup defect was detected. Version 0.1.1 corrects that defect and preserves the original release history. The real engine samples above preceded the final metadata bookkeeping and startup fixes; these fixes were checked with ordinary regressions and installed CLI commands. No repeat mutation campaign on the corrective package is claimed.
