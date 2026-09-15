@@ -1,0 +1,9 @@
+{
+  "units": [
+    { "source": "subject.js", "tests": ["subject.test.js"], "dependencies": [] }
+  ],
+  "inputs": ["package.json"],
+  "budgetSeconds": 60,
+  "workers": 1,
+  "engine": { "coverageAnalysis": "perTest", "ignorePatterns": [".bedel/**"] }
+}

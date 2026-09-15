@@ -1,0 +1,15 @@
+{
+  "durationMs": 24394,
+  "mutants": 8,
+  "partialObservations": 3,
+  "passed": true,
+  "scenarios": [
+    "whole-vs-batches",
+    "reuse",
+    "index-rebuild",
+    "interruption-resume",
+    "report-rebuild",
+    "space-and-unicode-path"
+  ],
+  "splitUnits": 4
+}

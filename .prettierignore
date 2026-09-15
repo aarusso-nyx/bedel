@@ -1,0 +1,7 @@
+docs/provenance/
+qualification/fixture/.bedel/
+qualification/fixture/qualification-result.json
+# Generated dependency manifests; byte equality is checked by the ordinary tests.
+npm-shrinkwrap.json
+package-lock.json
+toolchain-lock.json

@@ -1,0 +1,273 @@
+{
+  "sourceCommit": "18fc6cf01645648dfe3b6d5c256a926c3c75ef47",
+  "files": [
+    {
+      "path": "packages/cli/src/services/release-certification-container.ts",
+      "sha256": "4acd2799ae3b1340ad5402419e5462150f6e9dee662d74ef51f5f187c1b46a3b"
+    },
+    {
+      "path": "packages/cli/src/services/release-mutation-artifacts.ts",
+      "sha256": "ca4bcd96009851430fcb3caaae242e58f9738393e9102d345c672ec190c9d4b5"
+    },
+    {
+      "path": "packages/cli/src/services/release-mutation-driver.ts",
+      "sha256": "4c1003f61aac4b18d4f9e46ad15265a1d842c8f2b18ff9b3c2a61c089af0fbce"
+    },
+    {
+      "path": "packages/cli/src/services/release-mutation-inputs.ts",
+      "sha256": "1c1f1a87d0f3d43d216040e8e901180cb617f6a5df75275afae715341cfdbea2"
+    },
+    {
+      "path": "packages/cli/src/services/release-mutation-production.ts",
+      "sha256": "69d77978fef22448d5632b6a4add66632d909f74cb083cddb09467bf828cd60b"
+    },
+    {
+      "path": "packages/cli/src/services/release-mutation-program.ts",
+      "sha256": "aa98caf2f30517d7bcd4719c5cdfc165f54ded039c0d28c1fb9856bc262f8ed5"
+    },
+    {
+      "path": "packages/cli/src/services/release-mutation-retention.ts",
+      "sha256": "371f7abef493a6a53454f3aedcfa9277652ec5957ff85dc3859742100a59f49f"
+    },
+    {
+      "path": "packages/cli/src/services/release-prepare-kernel.ts",
+      "sha256": "3e5d49f1ed955f61605361086e659139bd24616271b5bddd97460743a345e288"
+    },
+    {
+      "path": "packages/cli/tests/fixtures/mutation-toolchain/diagnostic-adoption.json",
+      "sha256": "ebb56c73eb5cf8a26ae8c66174c7ebe4a1e4357684474996315881adb25c13c5"
+    },
+    {
+      "path": "packages/cli/tests/fixtures/mutation-toolchain/fixture-root-gitignore",
+      "sha256": "8a80263f7b27eeb1fb4bced0d1b9d50b742273f9f16cb2c0ee69727aee42562e"
+    },
+    {
+      "path": "packages/cli/tests/fixtures/mutation-toolchain/fixture-root-readme.md",
+      "sha256": "8f200735268e17e6148538ee5079d1fa91de2955c09721ad47c4d60a05040402"
+    },
+    {
+      "path": "packages/cli/tests/fixtures/mutation-toolchain/packages/fixture/package.json",
+      "sha256": "75969b3d5453618a0e4a28aedb0822d98d25a8edcc6f30b06e592567fbf58a11"
+    },
+    {
+      "path": "packages/cli/tests/fixtures/mutation-toolchain/packages/fixture/src/zero.ts",
+      "sha256": "e0e255113e4ee9779b73c9a186e94903b63df448bb8b6c502809d5816494bfa8"
+    },
+    {
+      "path": "packages/cli/tests/fixtures/mutation-toolchain/packages/fixture/stryker.config.json",
+      "sha256": "5ba2162384a81a36c81251c71e9e4e364272d954aa46608b2ca71fb2574e3e64"
+    },
+    {
+      "path": "packages/cli/tests/fixtures/mutation-toolchain/packages/fixture/tests/subject.test.ts.fixture",
+      "sha256": "7e1d555e7743b00f82d2372377a2c8b89be02dedf38d0259dd3bf2fa7d0ce5a2"
+    },
+    {
+      "path": "packages/cli/tests/fixtures/mutation-toolchain/packages/fixture/tsconfig.json",
+      "sha256": "95034c38b351b89dae9c2212a7f71beed2cce9ccb2a3d992209a887b6cfee318"
+    },
+    {
+      "path": "packages/cli/tests/fixtures/mutation-toolchain/packages/fixture/vitest.config.cjs",
+      "sha256": "63ae83001abe4d10f9eeabc6a7fb023c25a699a1a2dcb33c838e6548ccbf8feb"
+    },
+    {
+      "path": "packages/cli/tests/fixtures/mutation-toolchain/root-package.json",
+      "sha256": "ebe0ee4f4553fc683d91e269d9f15ee07de7b855e87ba7bfaa4d21b3a4424c95"
+    },
+    {
+      "path": "packages/cli/tests/fixtures/mutation-toolchain/root-pnpm-workspace.yaml",
+      "sha256": "477e6c5f8b033a1ecb7f8919ad2726e4328c7893c4ad6228d62471425b22dbe7"
+    },
+    {
+      "path": "packages/cli/tests/fixtures/mutation-toolchain/subject.ts",
+      "sha256": "e136708b60695bb8cedf0148e459840682b3be75b238876df6af042ca23fd939"
+    },
+    {
+      "path": "packages/cli/tests/fixtures/mutation-toolchain/test-tasks.json",
+      "sha256": "40a55391b53201a07b76e49e76c591ad0c188eec3b36e66cd7fafca8fa77dd9c"
+    },
+    {
+      "path": "packages/cli/tests/helpers/release-mutation-container-fixture.ts",
+      "sha256": "5e1164c106110b241033d96f52883f6bd8d6c90d427c5e08c23096e33a6fa3b1"
+    },
+    {
+      "path": "packages/cli/tests/helpers/release-mutation-inputs-fixture.ts",
+      "sha256": "51be5d160e348341cf9e2057ccb508cf22c59bf6b2ea321ac46dad42d3e3173f"
+    },
+    {
+      "path": "packages/cli/tests/unit/check-runner.test.ts",
+      "sha256": "5854b2678be0b66e484dcbd8ee64b14dde308dba11b9dc76d42d46355951c110"
+    },
+    {
+      "path": "packages/cli/tests/unit/evidence-facade-acceptance.test.ts",
+      "sha256": "946801ee985492b179aa1a880dda024ee8e2ffa48dd11bf855c5024cff224e93"
+    },
+    {
+      "path": "packages/cli/tests/unit/mutation-evidence-v21.test.ts",
+      "sha256": "e17eb46fc167804d8a8e42db17c65fa4671ceead3720f8291d49d7b08c915cbb"
+    },
+    {
+      "path": "packages/cli/tests/unit/mutation-report-check.test.ts",
+      "sha256": "84ad549a2c49865e8ceceb901f49a0f3f7b85eaa686f5cb3c15cdb69c1e05420"
+    },
+    {
+      "path": "packages/cli/tests/unit/mutation-reuse.test.ts",
+      "sha256": "c2d487116fc367aa7c594cf9659e1531547b42d16deb8792a9b0bf27d5882b31"
+    },
+    {
+      "path": "packages/cli/tests/unit/mutation-run-depth.test.ts",
+      "sha256": "116ba14c0ee64e5d1594a67f310e55358863cef394f1f488b62e91e7c1904477"
+    },
+    {
+      "path": "packages/cli/tests/unit/mutation-toolchain-fixture.test.ts",
+      "sha256": "385e58b53d8dada21fdf34fd197f42d4c9d5b8e1e124b61cfecff6fb5120bd6a"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-certification-container.test.ts",
+      "sha256": "eec62b70d6ae01bfce6416774a3aec53a1d25a2a8da4f15c09f8b868cbd1eb91"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-evidence-store.test.ts",
+      "sha256": "9f3c9574bbf888617154bd47a32f0cd03c8345e5a84a4827db1a074be58efc7f"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-export-mutation-evidence.test.ts",
+      "sha256": "42eae7e5ad8e9285982ee2134d8bc0006ce06bdb49ff28a8c566dbcec6729de3"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-historical-mutation-inputs.test.ts",
+      "sha256": "b7a08ad58247cf69f0395a3261eaa06c036997c17cfab4b1798de219f3390d3b"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-host-two-lane-bundled.test.ts",
+      "sha256": "1afeead1776214e04de9fa824a9bd482096bd95a9aca336647c44248fbf1592d"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-lifecycle-certification-public-boundaries.test.ts",
+      "sha256": "8b7fd8378d877feb949e9fd18c1a9a280e686702e3d4436def11029551c3fa41"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-lifecycle-command-adapters.test.ts",
+      "sha256": "2ed4405fd1027069a59ab29894e4fa2153adae5c0b81e49939db25588114203e"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-lifecycle-execution.test.ts",
+      "sha256": "72dbe5e86213c674fc3ac1492d7a9b0c5d2a63a84e13c9071f7a14b7260ada49"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-mutation-artifacts.test.ts",
+      "sha256": "f7505b76dbe1abc20d2c59ea7131c08f84b2bc0ceefe3d6efd40b80c358cfa8a"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-mutation-container.test.ts",
+      "sha256": "88a13f24dabe9b90442cf10a205abee462f43428a5b30f4005b906b15bfa3c6e"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-mutation-diagnostic.test.ts",
+      "sha256": "e4b7c0d7a4d5f6a932515b919b69be63a04c038c09ef1d27a66d43ffc1b42420"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-mutation-driver.test.ts",
+      "sha256": "5ee18654a796a5474ab4f79dde016b4d4a2fd87296e5fc7977d89f273fd8a7a4"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-mutation-inputs.test.ts",
+      "sha256": "234005bcb36b1e24c64a56f49c97644825dcfeb204ae1f95bc51ab49ed29003a"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-mutation-prerequisites.test.ts",
+      "sha256": "929ce3e297bd57ee387364663fda4b885a7bf58e3b6728dc8197feb82b873a95"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-mutation-production-driver.test.ts",
+      "sha256": "65c0d2897026d14c77e77754e51bd40dc2d5c5f2f168d9f5f0158cc3dd006bc8"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-mutation-production.test.ts",
+      "sha256": "cf19b05a6d23d0dd89a4aef83233bc3ab635d37927456d8b6164d94c72fa1d62"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-mutation-program.test.ts",
+      "sha256": "8de288fe60997c392ae18459eb69c6846769494d61327691e4d5db0efd44c4f7"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-mutation-requirements.test.ts",
+      "sha256": "01188e9db16837cf359dfedcae3ae9f03255b62fc4c5a2f4d34e91e015f24e53"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-mutation-retention.test.ts",
+      "sha256": "d9ffe7d133be6df11d9b0a6963376d9013bd2c751c55fdbef0f61417a08b40d5"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-mutation-runner-phases.test.ts",
+      "sha256": "9d9a60376b6f2cdbf1d252b4d50ed53310089e60ddfe455c27fae910c0afaa2f"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-mutation-typescript-plugin.test.ts",
+      "sha256": "3fa4a3e668d68bebf7aa4c65dcdee3471625c547ebd77403ecb1fbc23a89ab03"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-prepare-kernel.test.ts",
+      "sha256": "e468f34fb6726c78ca0cc77ef4689be0b3317cae41970d2a770c30cfed7380c1"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-toolchain-fixture-compatibility.test.ts",
+      "sha256": "13adaf7dfac63169f0ff94e5bdd78a961a41d2856968bdf00fb032987964a283"
+    },
+    {
+      "path": "packages/cli/tests/unit/release-unit-mutation-evidence.test.ts",
+      "sha256": "cfa7955fbc6c9bb96893c49f0f4eacb88a1b1b54ed7fe3e1bb5e61e33ac3d0a3"
+    },
+    {
+      "path": "scripts/release-host/mutation-diagnostic.mjs",
+      "sha256": "b3f85f5390b59114af306827ea563080b631b60ab0aab65ae7d395eee22f6e96"
+    },
+    {
+      "path": "scripts/release-host/mutation-production.mjs",
+      "sha256": "55685f689a3102f647397e15ab64a0678dd04f385ef11f395fdb250b63de5570"
+    },
+    {
+      "path": "scripts/release-host/mutation-typescript-plugin.mjs",
+      "sha256": "ecae7baf28535d754761a54d9cf7ad0fe26f909d48b8d0021a605532c753a154"
+    },
+    {
+      "path": "scripts/release-host/mutation-vitest-plugin.mjs",
+      "sha256": "42d6e66c8265ae976399e8dffc4fdb40867a97259e24987f6429b1ce14b767a7"
+    },
+    {
+      "path": "scripts/release-host/mutation-workspace-aliases.mjs",
+      "sha256": "9786787d3b5d5b51e1fb0db72e06093ec6223e5d4692e1334038d69eeb52a023"
+    },
+    {
+      "path": "tests/contract/approved-mutation-verifier.test.ts",
+      "sha256": "d867d7587ca29d079f82ae20307a4a0ab3d25a8ac5802c645834ad2ca3979686"
+    },
+    {
+      "path": "tests/contract/devai-mutation-export-bindings.test.ts",
+      "sha256": "36ab00e6a7e4cc19d38041034c02aed7c2cad081052f89840867cf2b059bf03d"
+    },
+    {
+      "path": "tests/contract/mutation-checkpoints.test.ts",
+      "sha256": "b95cf794f33dcf59ac58894cd63fb53627957db3c635af4dc84a44ec9a312c49"
+    },
+    {
+      "path": "tests/contract/mutation-evidence-bindings.test.ts",
+      "sha256": "2423bf386da0fa3090549549e879dabe13d5a03653fa3c9314f33fbb95f15496"
+    },
+    {
+      "path": "tests/contract/mutation-verifier-byte-preservation.test.ts",
+      "sha256": "60c226d037a130df25f0658499f03d508a9413533789643892ecd5c92f4799a3"
+    },
+    {
+      "path": "tests/contract/mutation-workspace-aliases.test.ts",
+      "sha256": "d18404a2348edcae0f48996eb0882d18a056e99da68bf12c93d7ce4554843ce4"
+    },
+    {
+      "path": "tests/contract/verify-mutation-semantics.test.ts",
+      "sha256": "5928f534a0fe57653c0750557d18b9468bbdb0ca4bf65c6c87841e23568da0ee"
+    },
+    {
+      "path": "tests/integration/mutation-static-activation.integration.test.ts",
+      "sha256": "001ae8d2be8bddd3f5b853f015399462a43321680d811bb372d169a42fd23543"
+    }
+  ]
+}

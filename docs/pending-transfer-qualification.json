@@ -1,0 +1,24 @@
+{
+  "runId": "b214616a-ec0e-4efc-bf80-d6887b616343",
+  "firstHost": "Colima Linux arm64",
+  "secondHost": "Docker Desktop Linux arm64",
+  "firstBudgetSeconds": 15,
+  "secondBudgetSeconds": 150,
+  "firstStatus": "preparation-failed",
+  "firstFailure": {
+    "detail": "Less than 20,000 free filesystem inodes for dependency preparation",
+    "kind": "runtime-preflight"
+  },
+  "secondStatus": "complete",
+  "pending": 0,
+  "counts": {
+    "Killed": 7
+  },
+  "score": 100,
+  "containerExitCode": 0,
+  "elapsedOnSecondHostSeconds": 64.487,
+  "imageEquivalenceVerified": true,
+  "completeResumeWithoutEngine": true,
+  "currentHostLocatorPreserved": true,
+  "automaticRetry": false
+}

@@ -1,0 +1,38 @@
+{
+  "name": "bedel",
+  "version": "0.1.0",
+  "description": "Portable incremental mutation hardening, independent of delivery gates",
+  "type": "module",
+  "license": "Apache-2.0",
+  "bin": {
+    "bedel": "src/cli.mjs"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    "docs/EXTRACTION.md",
+    "docs/QUALIFICATION.md",
+    "Dockerfile",
+    "toolchain-lock.json"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "lint": "eslint src test",
+    "format:check": "prettier --check .",
+    "qualify": "node qualification/run.mjs && vitest run --config qualification/vitest.config.mjs"
+  },
+  "dependencies": {
+    "@stryker-mutator/core": "9.6.1",
+    "@stryker-mutator/vitest-runner": "9.6.1"
+  },
+  "devDependencies": {
+    "eslint": "9.39.2",
+    "prettier": "3.7.4",
+    "vitest": "4.1.10"
+  }
+}

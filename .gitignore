@@ -1,0 +1,4 @@
+node_modules/
+.bedel/
+*.tgz
+*.tgz.sha256

@@ -1,0 +1,23 @@
+[
+  {
+    "scenario": "oom",
+    "containerOOMKilled": true,
+    "containerExitCode": 0,
+    "log": "Worker exit code null signal SIGKILL",
+    "classified": "worker-memory-or-killed"
+  },
+  {
+    "scenario": "crash",
+    "containerOOMKilled": false,
+    "containerExitCode": 0,
+    "log": "Worker exit code null signal SIGSEGV",
+    "classified": "native-crash"
+  },
+  {
+    "scenario": "v8-heap-oom",
+    "containerOOMKilled": false,
+    "containerExitCode": 0,
+    "log": "FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory\nWorker exit code null signal SIGABRT",
+    "classified": "worker-memory-or-killed"
+  }
+]

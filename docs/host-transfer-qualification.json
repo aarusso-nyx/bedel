@@ -1,0 +1,12 @@
+{
+  "from": "Docker Desktop Linux arm64",
+  "to": "Colima Linux arm64",
+  "status": "complete",
+  "complete": 1,
+  "score": 100,
+  "counts": {
+    "Killed": 7
+  },
+  "availableBytes": 4284407808,
+  "mutationExecutions": 0
+}
