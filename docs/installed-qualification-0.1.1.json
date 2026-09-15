@@ -1,0 +1,9 @@
+{
+  "version": "0.1.1",
+  "symlinkVersion": true,
+  "symlinkHelp": true,
+  "symlinkDockerPlanUnits": 1,
+  "pathSpacesAndUnicode": true,
+  "mutationExecutions": 0,
+  "tarballSha256": "d8ff6dae82aa74c6dc3ec5db61205a9223640b682e1bf78d90d15d2f2cfaad91"
+}

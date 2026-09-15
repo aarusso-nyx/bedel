@@ -7,7 +7,7 @@ Independent, portable mutation hardening. **Never a CI or release gate.** Bedel 
 Install the release tarball, using Node 22 or later:
 
 ```sh
-npm install -g ./bedel-0.1.0.tgz
+npm install -g ./bedel-0.1.1.tgz
 bedel --help
 ```
 

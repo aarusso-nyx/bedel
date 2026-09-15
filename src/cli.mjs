@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { parseArgs } from "node:util";
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, realpathSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import { plan, config } from "./planner.mjs";
@@ -20,7 +20,7 @@ export async function main(args = process.argv.slice(2), root = process.cwd()) {
       version: { type: "boolean" },
     },
   });
-  if (values.version) return { version: "0.1.0" };
+  if (values.version) return { version: "0.1.1" };
   if (values.help || !positionals.length)
     return "bedel plan|run --base <sha> | --files <path> (repeatable) | --all [--force] [--docker-context <context>]\nbedel resume|report <run-id> [--docker-context <context>]\nExecution always uses Docker resource limits. Configure a digest-pinned image and optional dockerContext in bedel.config.json.";
   const [command, id] = positionals;
@@ -57,7 +57,10 @@ export async function main(args = process.argv.slice(2), root = process.cwd()) {
     ? p
     : remote(root, p, { context, deadline, force: values.force });
 }
-if (import.meta.url === pathToFileURL(resolve(process.argv[1] ?? "")).href) {
+if (
+  process.argv[1] &&
+  import.meta.url === pathToFileURL(realpathSync(resolve(process.argv[1]))).href
+) {
   main()
     .then((result) => {
       console.log(

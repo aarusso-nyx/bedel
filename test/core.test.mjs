@@ -1,7 +1,14 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { mkdtempSync, writeFileSync, readFileSync, rmSync } from "node:fs";
+import {
+  mkdtempSync,
+  writeFileSync,
+  readFileSync,
+  rmSync,
+  symlinkSync,
+} from "node:fs";
 import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 import { tmpdir } from "node:os";
 import { execFileSync } from "node:child_process";
 import { plan } from "../src/planner.mjs";
@@ -138,4 +145,18 @@ test("execution CPU and memory limits affect keys; daemon capacity does not", (t
   c.memoryMiB = 1024;
   writeFileSync(configPath, JSON.stringify(c));
   assert.notEqual(plan(root, { all: true }, environment).units[0].key, limited);
+});
+
+test("installed symlink entrypoint executes CLI instead of returning silently", (t) => {
+  const root = fixture(t),
+    bin = join(root, "bedel");
+  symlinkSync(fileURLToPath(new URL("../src/cli.mjs", import.meta.url)), bin);
+  const result = JSON.parse(
+    execFileSync(process.execPath, [bin, "--version"], { encoding: "utf8" }),
+  );
+  assert.equal(
+    result.version,
+    JSON.parse(readFileSync(new URL("../package.json", import.meta.url)))
+      .version,
+  );
 });
